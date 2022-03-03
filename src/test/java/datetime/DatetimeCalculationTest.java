@@ -114,13 +114,14 @@ class DatetimeCalculationTest {
     @Test
     void weekdaysBetweenDatesZone() {
 
-        LocalDateTime first = LocalDateTime.of(2021, 2, 1, 5, 5);
-        LocalDateTime second = LocalDateTime.of(2022, 3, 2, 5, 5);
+        LocalDateTime first = LocalDateTime.of(2021, 11, 1, 5, 0);
+        LocalDateTime second = LocalDateTime.of(2022, 3, 2, 11, 0);
 
-        long result = datetimeCalculation.weekdaysBetweenDates(first, second);
+        long result = datetimeCalculation.weekdaysBetweenDates(firstZoneId,secondZoneId, first, second);
 
-        assertEquals(282, result);
+        assertEquals(86, result);
     }
+
 
     @Test
     void completeWeeksBetweenDatesZone() {
