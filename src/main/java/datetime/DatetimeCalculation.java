@@ -3,6 +3,7 @@ package datetime;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 
+
 public interface DatetimeCalculation {
 
     long daysBetweenDates(LocalDateTime first, LocalDateTime second);
