@@ -1,5 +1,7 @@
 # AligentAssigment
 
+Code with solution is located in branch master of this repository.
+
 # Build instructions:
 
 1.Make sure JDK is installed on machine and path to JDK is added to environment variables.
