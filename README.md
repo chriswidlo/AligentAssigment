@@ -14,7 +14,7 @@ Code with solution is located in branch master of this repository.
 
 # Api definition:
 
-PeriodFormat contains 4 available formats YEARS,HOURS,MINUTES,SECONDS . All of them can be used to convert days to years, hours, minutes, or seconds.
+PeriodFormat class contains 4 available formats YEARS,HOURS,MINUTES,SECONDS . They can be used to convert days respectivelly to years, hours, minutes, or seconds.
 
 Interface "DatetimeCalculation" represents API and includes all functions.
 
